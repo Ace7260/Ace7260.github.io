@@ -314,7 +314,7 @@ button:hover::before {
 /***skills***/
 
 .skills::after {
-    content: "do";
+    content: "to use";
 }
 
 
