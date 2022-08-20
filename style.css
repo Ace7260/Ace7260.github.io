@@ -36,6 +36,12 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(38, 68, 202);
+    font-weight: 300;
+}
+
 body {
     background: #1d1d1d;
     width: 100%;
@@ -619,8 +625,14 @@ input[type="submit"] {
 
 textarea {
     width: 100%;
-    margin-bottom: 1em;
-    padding: 10px;
+    height: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid rgb(237, 231, 231);
+    color: black;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
 }
 
 .mail {
