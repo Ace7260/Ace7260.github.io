@@ -197,6 +197,11 @@ button {
     font-weight: 400;
 }
 
+.btn {
+    color: white;
+    font-weight: 300;
+}
+
 button::before {
     content: "";
     background-color: crimson;
@@ -231,11 +236,11 @@ button:hover::before {
     height: 400px;
     border-radius: 5%;
     height: auto;
-    filter: grayscale(0);
+    filter: grayscale(1);
 }
 
 .home-section img:hover {
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 
 
@@ -347,11 +352,11 @@ button:hover::before {
     margin-right: 100px;
     border-radius: 10px;
     height: 500px;
-    filter: grayscale(0);
+    filter: grayscale(1);
 }
 
 #About div img:hover {
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 
 .cv {
