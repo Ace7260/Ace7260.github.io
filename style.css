@@ -801,7 +801,7 @@ footer p {
 
 @media (max-width: 500px) {
     .home-section .left {
-        margin-top: 10em;
+        margin-top: -10em;
     }
     .text_about {
         text-align: justify;
