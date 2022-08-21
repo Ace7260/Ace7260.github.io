@@ -854,14 +854,15 @@ footer p {
     }
 }
 
-
-/*
-@media (max-width: 445px) {
-   #About h1 {
-       margin-top: 13em;
-   }
-   #About div img {
-       margin-right: 0;
-       width: 100%;
-   }
+@media (max-width: 350px) {
+    #About h1 {
+        margin-top: 13em;
+    }
+    #About div img {
+        margin-right: 0;
+        width: 100%;
+    }
+    .home-section .left {
+        margin-top: 3em;
+    }
 }
