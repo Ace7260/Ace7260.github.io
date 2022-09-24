@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
-:root {
+:root,
+.dog {
     --background-color: #1d1d1d;
     --text-color: white;
     --coloration: crimson;
@@ -45,6 +46,8 @@ a {
 body {
     background: var(--background-color);
     width: 100%;
+    scroll-behavior: smooth;
+    transition: scroll 500ms ease;
 }
 
 section,
@@ -56,7 +59,7 @@ nav {
 /******/
 
 .text {
-    color: white;
+    color: var(--text-color);
     font-size: 1.2em;
     font-weight: 300;
     text-align: justify;
@@ -104,7 +107,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: 300;
     transition: all .4s ease-in-out;
@@ -157,7 +160,7 @@ nav ul li .dark:hover::before {
 
 .intro {
     font-size: 2em;
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
 }
 
@@ -186,6 +189,7 @@ section {
 
 .salutation {
     font-size: 40px;
+    font-weight: bold;
 }
 
 button {
@@ -202,7 +206,7 @@ button {
 }
 
 .btn {
-    color: white;
+    color: var(--text-color);
     font-weight: 300;
 }
 
@@ -222,7 +226,7 @@ button::before {
 }
 
 button:hover::before {
-    color: white;
+    color: var(--text-color);
     width: 150%;
     height: 210%;
 }
@@ -272,7 +276,7 @@ button:hover::before {
 }
 
 .social span a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     background-color: crimson;
     padding: 10px 20px;
@@ -293,12 +297,13 @@ button:hover::before {
     text-align: center;
     font-weight: 500;
     position: relative;
+    color: white;
 }
 
 .ace::before {
     content: "";
     position: absolute;
-    background-color: white;
+    background-color: var(--text-color);
     width: 150px;
     height: 3px;
     left: 50%;
@@ -365,7 +370,7 @@ button:hover::before {
 
 .cv {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 
 #About div div {
@@ -409,7 +414,7 @@ button:hover::before {
 
 #Skills h1 {
     font-size: 30px;
-    color: white;
+    color: var(--text-color);
     text-transform: capitalize;
     text-align: center;
     /* margin-bottom: 80px; */
@@ -434,11 +439,11 @@ button:hover::before {
     font-weight: 400;
     text-transform: uppercase;
     position: relative;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-shadow: 5px 3px 15px black;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: var(--text-color);
     z-index: 50;
 }
 
@@ -452,6 +457,7 @@ button:hover::before {
     background-color: crimson;
     transition: all .4s;
     z-index: -1;
+    border-radius: 5px;
 }
 
 .item:hover::before {
@@ -503,7 +509,7 @@ button:hover::before {
 
 #Projects h1 {
     font-size: 30px;
-    color: white;
+    color: var(--text-color);
     text-transform: capitalize;
     text-align: center;
     padding: 2em 0;
@@ -590,7 +596,7 @@ button:hover::before {
 .title {
     padding: 2.5em 0;
     text-align: center;
-    color: white;
+    color: var(--text-color);
     margin-bottom: 0.5em;
     font-size: 30px;
 }
@@ -629,7 +635,7 @@ input[type="submit"] {
     padding: 10px 30px;
     align-self: flex-end;
     background-color: var(--coloration);
-    color: white;
+    color: var(--text-color);
 }
 
 textarea {
@@ -789,7 +795,7 @@ footer p {
 @media (max-width:600px) {
     #Projects h1 {
         font-size: 30px;
-        color: white;
+        color: var(--text-color);
         text-transform: capitalize;
         text-align: center;
         padding: 7em 0 2em 0;
@@ -850,7 +856,7 @@ footer p {
         /* padding: 50px; */
         /* margin-right: -50px; */
         line-height: 22px;
-        color: white;
+        color: var(--text-color);
         margin-left: 0px;
     }
     /* .abt {
