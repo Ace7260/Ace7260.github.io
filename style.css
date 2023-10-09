@@ -81,7 +81,16 @@ nav {
 .logo {
     color: var(--coloration);
 }
-
+#version{
+    color: white;
+    font-size: 15px;
+    background: none;
+    border: none;
+    padding: 2px;
+}
+#version option{
+    background: #1d1d1d;
+}
 nav {
     position: fixed;
     top: 0;
